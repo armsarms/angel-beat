@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+.music_wrap{color:#888; }
+.music_wrap dl {float:left;width:320px;margin: 15px 20px 15px 0px;background-color: #fff}
+.no-margin {margin-right: 0px !important;}
+.music_wrap dt {height:120px; width:120px;float:left;}
+.music_wrap dt img{ width:120px; height:120px; display:block;}
+
+.music_wrap dd{width:160px; height:120px; display:block;float:left;margin-left: 20px;} 
+.music_wrap dd div{display: block;clear: both;} 
+.music_wrap dd .music-name{font-size: 18px;font-weight: bold;line-height: 1.8;}
+
+.music-title{height: 68px;line-height: 68px}
+.musicName{float: left;font-size: 30px;}
+.musicStyle{float: left;margin-left: 10px;height:18px;line-height:18px;margin-top:32px; font-size:12px;height:16px;letter-spacing: 4px; color:#fff; background-color: #e55; padding: 0 5px 2px 5px;border-radius:4px;}
+
+
+
+.audio-wrap{width: 400px; float: left; display: block;}
+.audio-wrap .thumb{height: 275px;background-color: #8fc7b4}
+.audio-wrap .audio-container{height: 36px;border: solid 1px #626262;}
+.audio-wrap .audio-share{height: 22px;text-align: right;}
+.audio-wrap .audio-tab{height: 22px;}
+.audio-wrap .txt-wrap{height: 550px;border: solid 1px #000;padding: 8px;line-height: 22px;letter-spacing: 2px; }
+
+
+
+
+.audiojs {width: 398px; }
+.audiojs .play-pause {height: 28px; }
+.audiojs .play-pause p {height: 28px; }
+.audiojs .scrubber {width: 245px;   }
+.audiojs .progress { }
+.audiojs .loaded { }
+.audiojs .time {  }
+.audiojs .error-message {  }
+.track-details { }
+.track-details:before { content: '♬ '; }
+.track-details em { }
+
+
+
+
+.music-maker-wrap{width: 300px; float: left; display: block;margin: 0 35px;}
+.block-title{height: 30px;border-bottom: solid 1px #242424;font-size: 16px;line-height: 30px;margin-bottom: 15px;} 
+
+.maker-item-wrap{margin: 15px 0px 15px 10px;}
+.maker-item{height: 120px;}
+.maker-item .thumb-container{width: 120px;height: 120px;float: left;overflow: hidden;}
+.maker-item .thumb-container img{width: 120px;}
+.maker-item .txt-container {margin-left: 135px;}
+.maker-item .txt-container p{height: 28px;line-height: 28px; font-size: 16px;}
+.maker-item .txt-container .do{height: 32px;line-height: 32px; font-size: 16px;margin-top: 10px}
+.maker-item .txt-container .do a{border-radius:5px;padding: 0 5px;font-weight:bold;font-size: 14px;height: 25px;line-height: 25px;display: block; float: left;}
+.maker-item .txt-container .do a.gz{color: #fff;background-color: #e55e4c;margin-right: 10px;}
+.maker-item .txt-container .do a.dp{color: #fff;background-color: #fac26c;}
+ 
+
+.music-item-wrap{width: 220px;float: left;}
+.music-item-container li{margin:5px 0px;height: 28px;line-height: 28px;}
+.music-item-container h3{display: block;width: 160px;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;float: left;font-size: 14px;}
+.music-item-container i{display: block;float: left;width: 60px;font-size: 12px;text-align: right;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;color: #f2b9b4}
+
+.music-comment-wrap{border: solid 1px #000;min-height: 350px;margin: 30px auto;}
+.music-comment-wrap .tab-title{height: 22px;margin-top: 22px;border-bottom:solid 1px #8fc7b4;margin: 22px 22px 0px 22px}
+
+.music-comment-container {margin-top: 22px;margin: 22px 22px 0px 22px}
+.music-comment-item{margin: 15px 0;height: 80px;clear: both;}
+.music-comment-item .comment-user-header{width: 78px; height: 78px;overflow: hidden; float: left;}
+.music-comment-item .comment-user-header img{width: 78px;}
+.music-comment-item .comment-txt{margin-left: 95px}
+.music-comment-item .comment-txt p{margin-top: 5px;overflow: hidden;}
+.music-comment-item .comment-txt .timeline{margin-right: 30px;}
+.music-comment-item .comment-txt .username{color: #8fc7b4}
+ 
+.music-comment-submit{margin: 22px;height: 65px;line-height: 65px;}
+.music-comment-submit textarea {width: 850px;height: 60px;float: left;line-height: 25px;}
+.music-comment-submit button {background:#0096e6;width:80px;height:30px; border:#0096e6 1px solid;line-height:30px; color:#fff;text-align:center;border-radius:2px;outline: none;margin-left: 20px;}
+
+.music-like-container {margin: 22px 22px 0px 22px}
+.music-like-item{margin:0px 19px 40px 0px;height: 80px;float: left;}
+.music-like-item-clear-right{margin:0px 0px 40px 0px;height: 80px;float: left;}
+.music-like-item .like-user-header{width: 78px; height: 78px;overflow: hidden; }
+.music-like-item .like-user-header img{width: 78px;}
+.music-like-item .like-txt{text-align: center;}
+

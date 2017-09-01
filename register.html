@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <title>音铺网</title>
+    <link rel="stylesheet" href="./css/yinyuepu.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_401475_5myibxbqcvrt3xr.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/mockjs/dist/mock.js"></script>
+    <!-- <script src="./js/mock.js"></script> -->
+
+    <script src="./js/transition.js"></script>
+    <script src="./js/carousel.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="scr">
+            <div class="nav">
+                <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+                <ul>
+                    <li class="shop"><a href="#" class="title">商城</a>
+                        <ul>
+                            <li><a href="#">商城</a></li>
+                            <li><a href="#">音乐人</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./yinba.html" class="title">推荐</a></li>
+                    <li><a href="#" class="title">活动</a></li>
+                    <li><a href="#" class="title">古风聚聚</a></li>
+                    <li><a href="#" class="title">集市</a></li>
+                </ul>
+                <span class="icon-user"></span>
+            </div>
+        </div>
+    </div>
+    <div class="center center-register">
+        <ul class="progress1">
+            <li> <span>①</span> 填写注册内容 —————————————————— </li>
+            <li> <span>②</span> 邮箱验证 ——————————————————</li>
+            <li><span>③</span>完成</li>
+        </ul>
+        <form method="post" id="form_reg" role="form">
+            <div class="st-bg">
+                <!--邮箱注册-->
+                <div class="base-info" id="base-info-email">
+                    <div class="info-list cf form-group">
+                        <span class="input-outer"><i class="iconfont icon-youxiang"></i></span> <input placeholder="输入常用邮箱" name="user.email" id="txt_user_email" autocomplete="off" type="text" value="" class="s-txt form-control">
+                    </div>
+                    <div class="info-list cf  form-group">
+                        <span class="input-outer"><i class="iconfont icon-qq"></i></span> <input placeholder="输入常用QQ号" name="user.email" id="txt_user_qq" autocomplete="off" type="text" value="" class="s-txt  form-control">
+                    </div>
+                    <div class="info-list cf  form-group">
+                        <span class="input-outer"> <i class="iconfont icon-xin"></i></span> <input placeholder="设置昵称：限4-10个字符[汉字算两个字符]" name="user.userName" id="txt_user_username" autocomplete="off" type="text" value="" class="s-txt  form-control">
+                    </div>
+                    <div class="info-list cf  form-group">
+                        <span class="input-outer"> <i class="iconfont icon-mima"></i></span> <input name="user.userPassword" type="password" id="txt_user_userPassword" class="s-txt  form-control"  placeholder="设置密码：限6-15个字符，区分大小写" value="">
+                    </div>
+                    <div class="info-list cf  form-group">
+                        <span class="input-outer"> <i class="iconfont icon-mima"></i></span> <input name="repassword" id="txt_repassword" type="password" class="s-txt  form-control" placeholder="再次输入密码" value="">
+                    </div>
+                    <div class="xieyi-list cf">
+                        <label><input type="checkbox" id="chk_agree" checked="checked">我同意</label>&nbsp;&nbsp;<a href="javascript:;">用户协议</a>
+                    </div>
+                </div>
+
+                <div>
+                    <a class="next" id="origin_btn_next" disabled="false" href="javascript:;" style="display: none;">下一步</a><a class="next" id="btn_next" disabled="false" href="javascript:;">下一步</a> <span>&nbsp;&nbsp;已有帐号？<a href="/login.html">立即登录</a></span>
+                </div>
+            </div>
+        </form>     
+    </div>
+    <div class="footer">
+        <div class="foot-bottom register-bottom">
+            <div class="bottom">
+                <div class="bottom-left">
+                    想做出属于自己的原创歌吗？音铺网带你和各路制作大神0距离~编曲师作曲师作词师混音师pv师等任君挑选~你也能成为下一个大神！另有精品新歌推荐~八卦歌曲创作背后有趣故事~圈子一线动态报道~音铺网为你打造专属音乐梦想！
+                </div>
+                <div class="bottom-center">
+                    <a href="">关于我们</a>
+                    <a href="">联系我们</a>
+                    <a href="">网站地图</a>
+                </div>
+                <div class="bottom-right">
+                    <div>
+                        <p>关注我们</p>
+                        <div class="wb-btn">
+                             <a href="http://weibo.com/sorry?pagenotfound&">
+                             <i class="wb-img"></i>
+                             <span>加关注</span></a>
+                        </div>
+                    </div>  
+                    <img src="./images/55a3969ca374a.png" alt="">    
+                </div>
+            </div>   
+        </div> 
+        <div class="bottom-last">
+                Copyright © 2016 www.yinpushop.com  All rights reserved.  爱音艺 版权所有  苏ICP备16034338号
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/ui.reg.js"></script>
+</body>
+
+</html>
